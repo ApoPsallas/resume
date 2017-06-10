@@ -1,0 +1,151 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2017, 4:24:16 PM
+    Author     : Apostolis
+*/
+
+#wrapper {
+	margin: auto;
+	width: 75%;
+}
+#content {
+        
+	width: 100%;
+}
+#text{
+	width: 50%;
+	text-align:left;
+}
+
+table,th, td
+{
+border: 0px ;
+}
+
+
+body{background-color:#333333;
+color:#B0B0B0;
+font-family: Georgia;}
+
+input {
+    background-color: #bbbbbb;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+a{ text-decoration: none;     
+color: #00FFFF;
+font-family: Georgia;
+font-size: 18px;
+	
+}
+
+a:hover,a:active{
+text-shadow:  #000000;
+cursor: pointer;
+}  
+
+span {
+    display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: 	#FFFFFF;
+	border-right: 1px solid #ccc;
+	font-family:Georgia;
+ 
+	 
+}
+
+
+.index{
+ 
+	padding: 8px 15px;
+	position:relative;
+    left:40%;
+	text-decoration: none;
+	font-weight: bold;
+	color: 	#FFFFFF;
+	 text-align:center;
+	font-family:Georgia;
+	 font-style:italic;
+	 font-size:20px;}
+.logo{ 
+    
+        display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: 	#AAFFFF;
+	float:left;
+	font-family:Georgia;
+	 font-style:Italic;
+	 font-size:18px;
+ 
+	
+	}
+
+  .deksia{ 
+      position:absolute;
+      top:0px;
+      right:0px;
+	  float: left;
+	 
+   
+		padding: 0;
+	list-style: none;
+	background-color: #1A1A1A;
+	border-bottom: 1px   #ccc; 
+	border-top: 1px  #ccc;
+	}
+  
+  
+#nav {
+     border-top: none;
+     position: fixed;
+     transform: translateY(-20px);
+     top:0;
+     left:0;
+	 width: 100%;
+	 float: left;
+     right:0;
+	 padding: 0;
+	 list-style: none;
+	 background-color: #006060;
+	 border-bottom: 2px solid #005050; 
+     border-top: 2px solid #005050; 
+     
+	 }
+#nav li {  
+	float:right; 
+     
+        }
+
+ 
+	
+      
+#nav li a {
+	display:block;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: 	#000000;
+    border-right: 1px solid #005050; 
+	 }
+#nav li a:hover {
+	color: #000000;
+	background-color:#008080;
+	}
+#nav li.active a{
+	color: #000000;
+	background-color:#008080;
+	
+	 }
+	
+
+
